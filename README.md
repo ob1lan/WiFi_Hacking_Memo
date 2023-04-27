@@ -123,10 +123,10 @@ asleap -C XX:XX:XX:XX:XX:XX:XX:XX -R XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:XX:X
 network={
         scan_ssid=1 
         eap=PEAP 
-        ssid="Bilbos" 
+        ssid="SSID_NAME" 
         key_mgmt=WPA-EAP 
-        identity="Bilbos\brandybuck" 
-        password="Margaret" 
+        identity="DOMAIN\USERNAME" 
+        password="PASSWORD_CRACKED" 
         phase1="peaplabel=O" 
         phase2="auth=MSCHAPV2"
 }
