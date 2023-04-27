@@ -38,7 +38,7 @@ sudo dhclient wlan0
 curl http://192.168.1.1/proof.txt
 ```
 ## WPA-PSK (Personal)
-1.	Place interface in monitor mode using Airmon-ng
+1.	Place the wireless interface in monitor mode using Airmon-ng
 ```
 sudo airmon-ng start wlan0
 ```
